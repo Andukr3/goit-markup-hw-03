@@ -156,6 +156,7 @@ button {
 
 .page-logo-footer {
     color: var(--cloud);
+    margin-bottom: 16px;
 }
 
 .footer-text {
@@ -163,8 +164,7 @@ button {
     line-height: 1.5; 
     letter-spacing: 0.32px;
     color: var(--cloud);
-   display: inline-block;
-   margin-bottom: 16px;
+  
 }
 
 
