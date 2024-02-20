@@ -131,7 +131,10 @@ button {
 
 .team-member {
     background-color: var(--white);
+    width:calc((100%-72px)/4)
+    border-radius:0px 0px 4px 4px;
 }
+
 
 .team-member-name {
     font-size: 20px;
@@ -139,6 +142,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navyblue);
+
 }
 
 .team-member-position {
@@ -156,7 +160,6 @@ button {
 
 .page-logo-footer {
     color: var(--cloud);
-    margin-bottom: 16px;
 }
 
 .footer-text {
