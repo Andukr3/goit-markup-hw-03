@@ -21,6 +21,10 @@ button {
     cursor: pointer;
 }
 
+.img{
+    display: block;
+}
+
 .list {
     list-style: none;
 }
@@ -212,10 +216,7 @@ button {
     letter-spacing: 0.02em;
     color: var(--slate);}
 
-    .projects-title-text{
-        padding: 32px 16px;
-        border: 1px solid #e7e9fc;
-    }
+    
 
 .container{
     width: 1158px;
