@@ -163,6 +163,8 @@ button {
     line-height: 1.5; 
     letter-spacing: 0.32px;
     color: var(--cloud);
+   display: inline-block;
+   margin-bottom: 16px;
 }
 
 
@@ -170,8 +172,6 @@ button {
 .footer{
     padding-top: 100px;
     padding-bottom: 100px;
-    display:inline-block;
-    margin-bottom: 16px;
 }
 
 
@@ -216,8 +216,4 @@ button {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-}
-.page-header{
-    border-bottom: 1px solid;
-
 }
