@@ -167,7 +167,7 @@ border: none;
     font-style: normal;
 }
 .benefits-item{
-    width: calc((100%-72px));
+    width: calc((100% - 72px) /4);
 }
 
 .benefits{
@@ -190,7 +190,7 @@ border: none;
 
 .benefits-list{
 display: flex;
-gap: 24px 0;
+gap: 24px;
 }
 
 .team {
@@ -199,9 +199,17 @@ gap: 24px 0;
 
 .team-member {
     background-color: var(--white);
-    
+    width: calc((100% - 72px) /4);
 }
 
+.team-list{
+    display: flex;
+    gap: 24px;
+}
+
+.team-title{
+    margin-bottom: 72px;
+}
 
 .team-member-name {
     font-size: 20px;
