@@ -284,6 +284,8 @@ margin-bottom: 8px;
 }
 .page-logo-footer {
     color: var(--cloud);
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .footer-text {
     font-size: 16px;
