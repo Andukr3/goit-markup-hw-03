@@ -56,6 +56,10 @@ img {
 
 }
 
+.page-header-contact-item{
+    padding: 24px 0;
+}
+
 .page-logo-colored {
     color: var(--navyblue);
 }
