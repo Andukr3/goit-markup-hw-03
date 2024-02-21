@@ -92,13 +92,26 @@ img {
 }
 
 .hero-btn {
-    font-family: "Roboto", sans-serif;
+display: block;
+gap: 10px;
+min-width: 169px;
+padding: 16px 32px;
+margin-top: 48px;
+border-radius: 4px;
+margin-left: auto;
+margin-right: auto;
+height: 56px;
+border: none;
+
+
+    font-family: inherit;
+    font-style: normal;
     font-size: 16px;
     background-color: var(--iris);
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    ;
+    cursor: pointer;
     color: var(--white);
 }
 
