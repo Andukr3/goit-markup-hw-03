@@ -75,6 +75,7 @@ img {
 .page-header-contacts-list{
     display: flex;
     gap: 40px;
+
 }
 
 .page-header-contact {
@@ -82,11 +83,9 @@ img {
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: var(--state);
-}
-
-.page-header-contact-item{
     padding: 24px 0;
 }
+
 
 .page-header-contact:hover,
 .page-header-contact:focus {
@@ -241,7 +240,6 @@ width: calc((100% - 72px) / 4);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
 }
 
 
