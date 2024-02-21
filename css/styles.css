@@ -192,8 +192,7 @@ row-gap: 48px;
 
 .page-logo-footer {
     color: var(--cloud);
-    display: inline-block;
-        margin-bottom: 16px;
+    
 }
 
 .footer-text {
@@ -209,6 +208,8 @@ row-gap: 48px;
 .footer{
     padding-top: 100px;
     padding-bottom: 100px;
+    display: inline-block;
+        margin-bottom: 16px;
 }
 
 
