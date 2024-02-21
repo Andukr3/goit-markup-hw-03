@@ -124,9 +124,6 @@ img {
     color: var(--navyblue);
 }
 
-.benefits-list-item{
-
-}
 
 .benefits-text {
     font-size: 16px;
@@ -249,6 +246,10 @@ row-gap: 48px;
     
 
 .container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
@@ -259,47 +260,10 @@ row-gap: 48px;
     background-color: #f4f4fd;
     padding: 120px 0;
 }
-
-
-
-.section-container {
-    padding: 120px 0;
+.page-header{
+    border-bottom: 1px solid #e7e9fc;
+    padding: 0 15px 0 15px;
 }
 
-.section-container .container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
-.section-container h2 {
-    margin-bottom: 72px;
-}
 
-.section-container ul {
-    display: flex;
-    gap: 24px;
-}
-
-.section-container ul li {
-    flex-basis: calc((100% - 72px) / 4);
-    margin-right: 24px;
-}
-
-.section-container ul li:last-child {
-    margin-right: 0;
-}
-
-.section-container ul li:first-child {
-    width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
-}
-
-.section-container ul li div {
-    padding: 32px 0;
-}
-
-.section-container ul li h3,
-.section-container ul li p {
-    text-align: center;
-    margin-bottom: 8px;
-}
