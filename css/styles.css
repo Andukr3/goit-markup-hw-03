@@ -192,6 +192,8 @@ row-gap: 48px;
 
 .page-logo-footer {
     color: var(--cloud);
+    display: inline-block;
+        margin-bottom: 16px;
 }
 
 .footer-text {
@@ -267,5 +269,6 @@ display: flex;
     border-bottom: 1px solid #e7e9fc;
     padding: 0 15px 0 15px;
 }
+
 
 
