@@ -196,6 +196,7 @@ gap: 24px;
 
 .team {
     background-color: var(--cloud);
+    padding: 120px 0;
 }
 
 .team-member {
@@ -208,9 +209,10 @@ gap: 24px;
 .team-list{
     display: flex;
     gap: 24px;
-    
 }
-
+.team-item{
+    padding: 32px 0;
+}
 
 .team-title{
     margin-bottom: 72px;
