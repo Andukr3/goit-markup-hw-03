@@ -109,6 +109,7 @@ img {
    letter-spacing:  0.02em;
     max-width: 496px;
     color: var(--white);
+    padding: 24px 0;
 }
 
 .hero-btn {
@@ -294,8 +295,7 @@ row-gap: 48px;
 
 .page-logo-footer {
     color: var(--cloud);
-    display: inline-block;
-        margin-bottom: 16px;
+    
 }
 
 .footer-text {
