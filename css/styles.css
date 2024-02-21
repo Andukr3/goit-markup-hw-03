@@ -84,6 +84,10 @@ img {
     color: var(--state);
 }
 
+.page-header-contact-item{
+    padding: 24px 0;
+}
+
 .page-header-contact:hover,
 .page-header-contact:focus {
     color: var(--ocean); 
@@ -166,6 +170,28 @@ border: none;
     width: calc((100%-72px));
 }
 
+.benefits{
+    padding: 120px 0;
+}
+
+.visually-hidden{
+    display: none;
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+
+.benefits-list{
+display: flex;
+gap: 24px 0;
+}
 
 .team {
     background-color: var(--cloud);
