@@ -51,6 +51,11 @@ img {
     margin-right: 76px;
 }
 
+.page-header-item{
+    padding: 24px 0;
+
+}
+
 .page-logo-colored {
     color: var(--navyblue);
 }
@@ -65,6 +70,11 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navyblue);
+}
+
+.page-header-contacts-list{
+    display: flex;
+    gap: 40px;
 }
 
 .page-header-contact {
