@@ -294,13 +294,11 @@ row-gap: 48px;
 
 .page-logo-footer {
     color: var(--cloud);
-    
+    display: inline-block;
+        margin-bottom: 16px;
 }
 
 .footer-text {
-    display: inline-block;
-    margin-bottom: 16px;
-    
     font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.32px;
