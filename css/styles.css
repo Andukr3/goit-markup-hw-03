@@ -48,12 +48,17 @@ img {
     letter-spacing: 0.03em;
     color: #4d5ae5;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .page-logo-colored {
     color: var(--navyblue);
 }
 
+.page-header-list{
+    display: flex;
+    gap: 40px;
+}
 .page-header-link {
     font-size: 16px;
     font-weight: 500;
