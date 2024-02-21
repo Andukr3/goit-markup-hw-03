@@ -271,7 +271,6 @@ width: calc((100% - 72px) / 4);
         color: var(--navy-blue);
         margin-bottom: 72px;
 
-        margin-bottom: 8px
 }
 .projects-list {
 display:flex;
@@ -299,6 +298,8 @@ row-gap: 48px;
 }
 
 .footer-text {
+    display: inline-block;
+    margin-bottom: 16px;
     
     font-size: 16px;
     line-height: 1.5; 
