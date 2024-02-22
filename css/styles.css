@@ -10,25 +10,7 @@
   --white: #ffffff;
   --background-modal: #fcfcfc;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-ul,
-ol {
-  margin: 0;
-  padding-left: 0;
-  list-style-type: none;
-}
-a {
-  text-decoration: none;
-  display: inline-block;
-}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -261,6 +243,8 @@ img {
 .portfolio-container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 .our-portfolio {
   padding-top: 120px;
@@ -278,6 +262,7 @@ img {
 .projects-item {
   margin-right: 24px;
   margin-bottom: 48px;
+  width: calc((100% - 48px) / 3);
 }
 
 .projects-title {
@@ -347,7 +332,7 @@ img {
 
 .container {
   align-items: center;
-
+  display: flex;
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
